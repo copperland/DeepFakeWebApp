@@ -51,7 +51,7 @@ Model, %87'nin üzerinde bir doğruluk oranına sahiptir. Eğitim sürecindeki p
 
 | Confusion Matrix                                     | Eğitim ve Doğrulama Kaybı (Loss)                             | Eğitim ve Doğrulama Başarısı (Accuracy)                        |
 | ---------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------- |
-| ![Confusion Matrix](Confusion%20Matrix.png) | ![Training and Validation Loss](Training%20and%20Validation%20Loss%20Graph.png) | ![Training and Validation Accuracy](training.png) |
+| ![Confusion Matrix](images/Confusion%20Matrix.png) | ![Training and Validation Loss](images/Training%20and%20Validation%20Loss%20Graph.png) | ![Training and Validation Accuracy](images/training.png) |
 
 **Hesaplanan Doğruluk (Accuracy):** **%87.17**
 
