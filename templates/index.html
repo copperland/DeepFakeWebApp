@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DeepFake Tespit</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>DeepFake Tespit Sistemi</h1>
+      <p class="muted">Video yükle, hızlıca analiz et — modern arayüz ve sürükle-bırak destekli.</p>
+    </header>
+
+    <section class="uploader">
+      <div id="drop-area" class="drop-area">
+        <form id="upload-form">
+          <p>Sürükle ve bırak veya <label class="file-label" for="fileElem">Dosya seç</label></p>
+          <input type="file" id="fileElem" name="video" accept="video/*" />
+          <div id="file-details" class="file-details"></div>
+          <button id="uploadBtn" type="submit" class="btn">Analiz Et</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="result" class="result" hidden>
+      <h2>Sonuç</h2>
+      <div id="result-card" class="card"></div>
+    </section>
+
+    <footer>
+      <small>Model dosyanızı `model/df_model.pt` yoluna koymayı unutmayın.</small>
+    </footer>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

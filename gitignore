@@ -1,0 +1,12 @@
+# Sanal ortam klasörü
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Kullanıcıların yüklediği videolar (depoda tutulmamalı)
+Uploaded_Files/
+
+# Ortam değişkenleri dosyası
+.env
