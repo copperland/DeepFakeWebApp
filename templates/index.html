@@ -10,14 +10,13 @@
   <main class="container">
     <header>
       <h1>DeepFake Tespit Sistemi</h1>
-      <p class="muted">Video yükle, hızlıca analiz et — modern arayüz ve sürükle-bırak destekli.</p>
     </header>
 
     <section class="uploader">
       <div id="drop-area" class="drop-area">
-        <form id="upload-form">
+        <form id="upload-form" method="POST" action="/Detect" enctype="multipart/form-data">
           <p>Sürükle ve bırak veya <label class="file-label" for="fileElem">Dosya seç</label></p>
-          <input type="file" id="fileElem" name="video" accept="video/*" />
+          <input type="file" id="fileElem" name="video" accept="video/*" required />
           <div id="file-details" class="file-details"></div>
           <button id="uploadBtn" type="submit" class="btn">Analiz Et</button>
         </form>
@@ -29,9 +28,7 @@
       <div id="result-card" class="card"></div>
     </section>
 
-    <footer>
-      <small>Model dosyanızı `model/df_model.pt` yoluna koymayı unutmayın.</small>
-    </footer>
+    
   </main>
 
   <script src="/static/script.js"></script>
