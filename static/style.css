@@ -25,5 +25,4 @@ header h1{margin:0;font-size:28px}
 .small{color:var(--muted);font-size:13px}
 footer{margin-top:14px;color:var(--muted);font-size:13px}
 
-/* drag hover */
 .drop-area.dragover{outline:2px dashed rgba(124,58,237,0.8);}
